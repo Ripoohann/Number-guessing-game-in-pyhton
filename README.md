@@ -13,6 +13,7 @@ def guess_number(x):
         elif(guess > random_number) :
             print(f"Sorry your number ({guess}) is larger than the correct number")
     print(f"YAYYYY!!, You have guessed the correct number: {random_number} ")
+<br>
 
 def computer_guess(x):
     low = 1
@@ -26,3 +27,4 @@ def computer_guess(x):
         elif (feedback == 'low'):
             low = guess + 1
     print(f"YAYYY!,The computer has guessed you number ({guess}) correctly")
+<br>
